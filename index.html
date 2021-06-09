@@ -7,61 +7,83 @@
     <script src="https://kit.fontawesome.com/5e59a4bfec.js" crossorigin="anonymous"></script>
     <title>Portofolio</title>
     <style>
-      /* --------------------- About US STYLE CSS -------------------------------------------------- */
-      @import url("");
-      
-      .about-us {
+      * {
+      	box-sizing: border-box;
+      }
+      body {
+      	margin: 0;
+      	font-family: 'Quicksand', sans-serif;
+      }
+      li {
+      	list-style: none;
+      }
+      a {
+      	text-decoration: none;
+      }
+      .topbar {
+      	width: 100%;
+        height: 50px;
+      }
+      .top-wrapper {
+      	padding: 180px 0 100px 0;
+        background-image: url('https://image.freepik.com/free-photo/man-hand-typing-keyboard-input-code-register-system_42708-293.jpg');
+        background-size: cover;
+        color: white;
+        text-align: center;
+      }
+      .container { 	
         width: 100%;
-        height: 200px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; 
-        max-width: 100%;
-        background: radial-gradient(ellipse at center, #1b2735 0%, #090a0f 100%);
-        height: 100vh;
+        padding: 0 15px;
+        margin: 0 auto
       }
-      .about-us .subtitle {
-        /*font-family: cursive;*/
-        color: #bbdefb;
-        /* position: absolute; */
+      .top-wrapper h1 {
+      	font-size: 45px;
+        letter-spacing: 6px;
+        margin-bottom: 10px;
+      }
+      .top-wrapper h3 {
+      	font-size: 35px;
+      }
+      .btn-wrapper {
+      	margin: 20px 0;
         text-align: center;
-        transition: ease 1s;
       }
-      .about-us .paragraph {
-        /*font-family: cursive;*/
-        color: #bbdefb;
-        font-size: 20px;
-        /* position: absolute; */
+      .btn {
+      	border-radius: 10px;
+        box-shadow: 0 7px #0077c2;
+        color: white;
+      	padding: 15px 40px;
+        opacity: 0.8;
         text-align: center;
-        transition: ease 1s;
       }
-      .about-us .subtitle:hover {
-        font-size: 50px;
+      .btn:hover {
+      	opacity: 1;
       }
-      .about-us .paragraph:hover {
-        font-size: 30px;
+      .learn {
+      	background-color: #42a5f5;
       }
-      .custom-hr {
-        border-top: 5px solid purple;
-        border-radius: 5px;
-        margin-left: 30%;
-        margin-right: 30%;
+      .learn:active {
+      	position: relative;
+        top: 7px;
+        box-shadow: none;
       }
-      .btn-contact {
-        background-color: #42a5f5;
-        /*font-family: cursive;*/
+      .fa {
+      	margin-right: 10px;
       }
+      /* --------------------- About US STYLE CSS -------------------------------------------------- */
+      
+      /* ---------------------END OF About US STYLE CSS -------------------------------------*/
       .contactUs{
-          text-align: center;
-      }
-      /* ---------------------END OF OUR TEAM STYLE CSS -------------------------------------*/
-      .containerCia {
+    text-align: center;
+				}
+      
+     .containerCia {
           /* width: 100%; */
           height: 300px;
           padding: 0 15px;
           margin: 0 auto;
           background-color: rgb(179, 179, 179);
-        }
+       }
 
       .Kiri {
           float: left;
@@ -111,7 +133,7 @@
           width: 48%;
           float: right;
           text-align: left;
-          padding-left: 40px;
+          padding-left: 40px;	 
 
       }
       .Up{
@@ -130,9 +152,9 @@
 
       .Kanan h3 {
 
-          line-height: 1px;
+          line-height: 2px;
           font-size: 25px;
-
+					margin: 20.75px 0px;
       }
 
 
@@ -145,39 +167,281 @@
       }
 
 
-        footer {
+       	 footer {
           width: 100%;
           padding-top: 30px;
           /* background-color: ; */
         }
-    
+      
+      
+      
+      /* --------------------- OUR TEAM STYLE CSS -------------------------------------------------- */
+      
+        html, body, h3 {
+          margin: 0;
+          padding: 0;
+          scroll-behavior: smooth;
+        }
+
+        .container {
+            margin:0 auto;
+            width:100%;
+            padding:0 0;
+        }
+
+        .team-wrapper {
+            background-image:url(https://i.ibb.co/2yrXT8C/1111.jpg);
+            background-size:cover;
+            margin:0 auto;
+            padding-top:100px;
+            padding-bottom:80px;
+        }
+        .title-wrap {
+            margin:0 auto;
+        }
+
+        .team-line {
+            margin:0 auto;
+            width:50%;
+            border-bottom:5px solid #3e82b9d3;
+            text-align:center;
+            margin-top:10px;
+            margin-bottom:50px;
+            border-radius:2px;
+            padding-bottom:20px;
+        }
+
+        .team-title-left {
+            text-align:center;
+            margin-right:15px;
+            display:flex;
+        }
+
+        .team-title-right {
+            text-align:center;
+            display:flex;
+        }
+
+        .team-title{
+            text-align:center;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .team-title p {
+            background-color:#3e82b9;
+            margin:0px 3px;
+            padding:5px;
+            font-size:32px;
+            color:white;
+            font-family: 'Brush Script MT', cursive;
+            border-radius:7px;
+            box-shadow:2px 2px #5e96c4;
+        }
+
+        .teams {
+            display:flex;
+            margin-right:30px;
+        }
+
+        .member-container {
+            width:20%;
+            flex:auto;
+            position:relative;
+            padding:10px 10px;
+            margin:0 auto;
+            height:470px;
+        }
+
+        .member {
+            display:inline-block;
+            height:100%;
+            width: 100%;
+            background-color:#8aacc8c9;
+            text-align:center;
+            border-radius:20px;
+            margin:0 auto;
+            box-shadow:0px 5px #738fe9;
+            padding-bottom:10px;
+        }
+
+        .member-image {
+            padding-top:15px;
+            border-radius:5px;
+            height:40%;
+            max-width:90%;
+            border-radius:50%;
+            padding-bottom:10px;
+        }
+
+        .member h3 {
+            font-family: Rockwell;
+            font-size: 14px;
+            padding-top:20px;
+            color: #f7f7f7;
+            letter-spacing:1px;
+            padding-bottom:10%;
+            border-bottom:1px solid #f7f7f7;
+        }
+
+        .member p {
+            padding-top:10px;
+            color:#3f2b2b;
+            letter-spacing:1.5px;
+            font-family:cursive;
+            font-size:14px;
+        }.member p {
+            padding-top:10px;
+            color:#3f2b2b;
+            letter-spacing:1.5px;
+            font-family:cursive;
+            font-size:12px;
+        }
+
+        .member-info {
+            text-align:center;
+            background-color: #6299c7;
+            margin:0 auto;
+            padding:20px 10px;
+            border-radius:20px;
+
+        }
+        .github-link {
+
+          color: white;
+          opacity: 0.8;
+          border-radius: 4px;
+          bottom:25px;
+          position:absolute;
+          padding:5% 10%;
+          margin:0 auto;
+          text-align:center;
+          left:35%;
+        }
+
+        .github-link:hover{
+            background-color: #f7f7f7;  
+            color:black;
+            box-shadow:0px 5px #a09999;
+            transition: all 0.5s;
+        }
+
+        .github-link:active{
+            bottom:23px;
+            box-shadow:none;
+            transition: all 0s;
+        }
+
+
+        @media (max-width:1000px) {
+          .top-wrapper h1 {
+          	font-size: 32px;
+          }  
+          
+          .member-container {
+                width:40%;
+                margin:0 auto;
+                padding-bottom:20px;
+                margin:0 auto;
+                text-align:center;
+          }
+          
+          .teams {
+          	flex-wrap:wrap;
+          }
+          
+          .github-link {
+          	bottom:30px;
+            left:35%;
+          }
+          
+          .github-link:active {
+          	bottom:27px;
+            left:35%;
+          }
+        }
+
+        @media (max-width:670px) {
+          .top-wrapper {
+          	text-align: left;
+          }
+          
+          .top-wrapper h2 {
+          	line-height: 36px;
+          }
+
+          .top-wrapper h1 {
+        		font-size: 24px;
+        		line-height: 36px;
+    			}
+
+    			.top-wrapper h3 {
+        		font-size: 30px;
+        		line-height: 30px;
+    			}
+
+    			.btn {
+    				width: 100%;
+    			}
+          
+          .member-container {
+          	margin:0 auto;
+          }
+
+          .teams {
+          	flex-direction:column;
+          }
+
+          .member-info {
+          	bottom:0px;
+            }
+
+            .github-link {
+                position:relative;
+                bottom:5px;
+                left:0px;
+                padding-top:10px;
+            }
+
+            .github-link:active {
+                position:relative;
+                bottom:5px;
+                left:5px;
+                padding-top:10px;
+            }
+        }
+      
+      /* ---------------------END OF OUR TEAM STYLE CSS -------------------------------------*/
+
+      
     </style>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/welcome_ourpage.css">
-    <link rel="stylesheet" href="css/our_team.css">
-    <link rel="stylesheet" href="css/header-stylesheet.css">
-    <link rel="stylesheet" href="css/header-responsive.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://jordy-k.github.io/C01/css/style-about-us.css" />
+    
+   <link rel="stylesheet" type="text/css" href="https://jordy-k.github.io/C01/css/header-stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="https://jordy-k.github.io/C01/css/header-responsive.css"> 
   </head>
   <body>
     <header>
-        <div class="container">
-           <div class="header-above">
-              <img class="logo" src="https://i.ibb.co/XJJwWZB/logo.png">
-            </div>
-            <nav class="menu">
-            <input type="checkbox" id="menuToggle">
-            <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Our Project</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#our-team">Our Team</a></li>
-                <li><a href="#">Contact Us</a></li>
-              </ul>
-          </nav>
-       </div
+      <div class="container">
+        <div class="header-above">
+          <img class="logo" src="https://i.ibb.co/XJJwWZB/logo.png">
+				</div>
+        <nav class="menu">
+          <input type="checkbox" id="menuToggle">
+          <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
+          <ul>
+            <li><a href="#welcome">Home</a></li>
+            <li><a href="#our-project">Our Project</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#our-team">Our Team</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <div class="top-wrapper">
+    <div id="welcome" class="top-wrapper">
     	<div class="container">
         <h2>Welcome to Our Page</h2>
         <h1>Learn Web Developer With Us</h1>
@@ -187,9 +451,9 @@
       	<a href="#" class="btn learn"><span class="fa fa-angle-double-down"></span>Learn More</a>
       </div>
     </div>
-    <div class="our-project">tes</div>
+    <div id="our-project" class="our-project">tes</div>
     
-    <div class="about-us">
+    <div id="about-us" class="about-us">
       <h1 class="subtitle">About Us</h1>
       <hr class="custom-hr" />
       <h2 class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit elementum augue id convallis. In nunc enim, consequat at efficitur.</h2>
@@ -273,7 +537,7 @@
     </div>
     
     <footer>  
-    <h1 class="contactUs"> Contact Us </h1>
+    <h1 id="contact-us" class="contactUs"> Contact Us </h1>
     <div class="containerCia">
         <div class="Kiri"> 
             <input placeholder="Name" type="text" name="" id="">
@@ -288,7 +552,7 @@
                 <p>Just leave a message to connect with us.</p>
             </div>
             <div class="Down">
-                <h3>C07 Progate Jakarta</h3>
+                <h3>C01 Progate Jakarta</h3>
                 <p>Jl. Jend. Sudirman No.Kav 71, Senayan,</p>
                 <p>Kec. Kby. Baru, Kota Jakarta Selatan,</p>
                 <p>DKI Jakarta 12190</p>
@@ -296,7 +560,7 @@
         </div>
     </div>
     <div class="copyRight">
-        Copyright C07 team © 2020
+        Copyright C01 team © 2021
     </div>
 </footer>   
     
