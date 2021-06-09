@@ -84,37 +84,3 @@ header {
 .fa {
   margin-right: 10px;
 }
-
-
-/* Tablet */
-@media (max-width: 1000px) {
-  .top-wrapper h2 {
-    font-size: 32px;
-  }
-}
-
-
-/* Smartphone */
-@media (max-width: 670px) {
-  .top-wrapper {
-    text-align: left;
-  }
-  
-  .top-wrapper h1 {
-    line-height: 36px;
-  }
-  
-  .top-wrapper h2 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-  
-  .top-wrapper h3 {
-    font-size: 14px;
-    line-height: 20px;
-  }
-  
-  .btn {
-    width: 100%;
-  }
-}
