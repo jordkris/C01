@@ -1,0 +1,208 @@
+html, body, h3 {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+  .container {
+      margin:0 auto;
+      width:100%;
+      padding:0 15px;
+  }
+
+  .team-wrapper {
+      background-image:url(https://i.ibb.co/2yrXT8C/1111.jpg);
+      background-size:cover;
+      margin:0 auto;
+      padding-top:100px;
+      padding-bottom:80px;
+  }
+  .title-wrap {
+      margin:0 auto;
+  }
+
+  .team-line {
+      margin:0 auto;
+      width:50%;
+      border-bottom:5px solid #3e82b9d3;
+      text-align:center;
+      margin-top:10px;
+      margin-bottom:50px;
+      border-radius:2px;
+      padding-bottom:20px;
+  }
+
+  .team-title-left {
+      text-align:center;
+      margin-right:15px;
+      display:flex;
+  }
+
+  .team-title-right {
+      text-align:center;
+      display:flex;
+  }
+
+  .team-title{
+      text-align:center;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .team-title p {
+      background-color:#3e82b9;
+      margin:0px 3px;
+      padding:5px;
+      font-size:32px;
+      color:white;
+      font-family: 'Brush Script MT', cursive;
+      border-radius:7px;
+      box-shadow:2px 2px #5e96c4;
+  }
+
+  .teams {
+      display:flex;
+      margin-right:30px;
+  }
+
+  .member-container {
+      width:20%;
+      flex:auto;
+      position:relative;
+      padding:10px 10px;
+      margin:0 auto;
+      height:470px;
+  }
+
+  .member {
+      display:inline-block;
+      height:100%;
+      width: 100%;
+      background-color:#8aacc8c9;
+      text-align:center;
+      border-radius:20px;
+      margin:0 auto;
+      box-shadow:0px 5px #738fe9;
+      padding-bottom:10px;
+  }
+
+  .member-image {
+      padding-top:15px;
+      border-radius:5px;
+      height:40%;
+      max-width:90%;
+      border-radius:50%;
+      padding-bottom:10px;
+  }
+
+  .member h3 {
+      font-family: Rockwell;
+      font-size: 14px;
+      padding-top:20px;
+      color: #f7f7f7;
+      letter-spacing:1px;
+      padding-bottom:10%;
+      border-bottom:1px solid #f7f7f7;
+  }
+
+  .member p {
+      padding-top:10px;
+      color:#3f2b2b;
+      letter-spacing:1.5px;
+      font-family:cursive;
+      font-size:14px;
+  }.member p {
+      padding-top:10px;
+      color:#3f2b2b;
+      letter-spacing:1.5px;
+      font-family:cursive;
+      font-size:12px;
+  }
+
+  .member-info {
+      text-align:center;
+      background-color: #6299c7;
+      margin:0 auto;
+      padding:20px 10px;
+      border-radius:20px;
+
+  }
+  .github-link {
+
+    color: white;
+    opacity: 0.8;
+    border-radius: 4px;
+    bottom:25px;
+    position:absolute;
+    padding:5% 10%;
+    margin:0 auto;
+    text-align:center;
+    left:35%;
+  }
+
+  .github-link:hover{
+      background-color: #f7f7f7;  
+      color:black;
+      box-shadow:0px 5px #a09999;
+      transition: all 0.5s;
+  }
+
+  .github-link:active{
+      bottom:23px;
+      box-shadow:none;
+      transition: all 0s;
+  }
+
+
+  @media (max-width:1000px){
+      .member-container {
+          width:40%;
+          margin:0 auto;
+          padding-bottom:20px;
+          margin:0 auto;
+          text-align:center;
+      }
+
+      .teams {
+          flex-wrap:wrap;
+      }
+
+      .github-link {
+          bottom:30px;
+          left:35%;
+      }
+
+      .github-link:active {
+          bottom:27px;
+          left:35%;
+      }
+  }
+
+  @media (max-width:670px){
+      .member-container {
+          margin:0 auto;
+      }
+
+      .teams {
+          flex-direction:column;
+      }
+
+      .member-info {
+          bottom:0px;
+      }
+
+      .github-link {
+          position:relative;
+          bottom:5px;
+          left:0px;
+          padding-top:10px;
+      }
+
+      .github-link:active {
+          position:relative;
+          bottom:5px;
+          left:5px;
+          padding-top:10px;
+      }
+  }
