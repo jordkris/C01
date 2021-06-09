@@ -44,7 +44,7 @@ header {
   margin: 0 auto
 }
 
-.top-wrapper h2 {
+.top-wrapper h1 {
   font-size: 45px;
   letter-spacing: 6px;
   margin-bottom: 10px;
@@ -83,4 +83,37 @@ header {
 
 .fa {
   margin-right: 10px;
+}
+
+/* Tablet */
+@media (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+}
+
+
+/* Smartphone */
+@media (max-width: 670px) {
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h2 {
+    line-height: 36px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper h3 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  
+  .btn {
+    width: 100%;
+  }
 }
