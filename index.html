@@ -29,7 +29,7 @@
       }
       .top-wrapper {
       	padding: 180px 0 100px 0;
-        background-image: url('https://image.freepik.com/free-photo/man-hand-typing-keyboard-input-code-register-system_42708-293.jpg');
+        background-image: url(https://github.com/irfannandag/C01/blob/8f26cbd401fc3cc55c8a5f2c98099d06a7c011df/image/webheading.jpg?raw=true);
         background-size: cover;
         color: white;
         text-align: center;
@@ -73,11 +73,55 @@
       .fa {
       	margin-right: 10px;
       }
+      .our-project {
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 60px;
+        background-color: white;
+        text-align: center;
+      }
+      .heading {
+	border-bottom: 3px solid #dee7ec;
+	width: 90%;
+    	margin: 0 auto;
+      }
+      .heading h2 {
+    	padding-top: 20px;
+    	font-family: 'Roboto', sans-serif;
+    	font-size: 32px;
+    	text-align: center;
+      }
+      .body-slider p {
+    	font-size: 24px;
+    	text-align: center;
+      }
+      .slider { 
+	width: 800px;
+    	height: 360px;
+	background-image: url(https://raw.githubusercontent.com/irfannandag/C01/main/image/gambar1.png);
+    	margin: 0 auto;
+    	animation: slide 20s infinite;
+      }
+
+      @keyframes slide {
+    	25% {
+		background: url(https://raw.githubusercontent.com/irfannandag/C01/main/image/gambar2.png);
+	}
+    	50% {
+        	background: url(https://raw.githubusercontent.com/irfannandag/C01/main/image/gambar3.png);
+    	}
+    	75% {
+        	background: url(https://raw.githubusercontent.com/irfannandag/C01/main/image/gambar4.png);
+    	}
+    	100% {
+        	background: url(https://raw.githubusercontent.com/irfannandag/C01/main/image/gambar1.png);
+    	}
+      }
       /* --------------------- About US STYLE CSS -------------------------------------------------- */
       
       /* ---------------------END OF About US STYLE CSS -------------------------------------*/
       .contactUs{
-    text-align: center;
+    	text-align: center;
 				}
       
      .containerCia {
@@ -278,12 +322,18 @@
             font-size: 14px;
             padding-top:20px;
             color: #f7f7f7;
-            letter-spacing:2px;
+            letter-spacing:1px;
             padding-bottom:10%;
             border-bottom:1px solid #f7f7f7;
         }
 
         .member p {
+            padding-top:10px;
+            color:#3f2b2b;
+            letter-spacing:1.5px;
+            font-family:cursive;
+            font-size:14px;
+        }.member p {
             padding-top:10px;
             color:#3f2b2b;
             letter-spacing:1.5px;
@@ -369,6 +419,11 @@
           	bottom:27px;
             left:35%;
           }
+	  .slider {
+        	width: 600px;
+        	height: 284px;
+        	margin: 0 auto;
+    	  }
         }
 
         @media (max-width:670px) {
@@ -390,9 +445,15 @@
         		line-height: 30px;
     			}
 
-    			.btn {
-    				width: 100%;
-    			}
+    	   .btn {
+		width: 100%;
+    	   }
+		
+	   .slider {
+        	width: 400px;
+        	height: 190px;
+        	margin: 0 auto;
+    	   }
           
           .member-container {
           	margin:0 auto;
@@ -436,6 +497,7 @@
           <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
           <ul>
             <li><a href="#welcome">Home</a></li>
+            <li><a href="#our-project">Our Project</a></li>
             <li><a href="#about-us">About Us</a></li>
             <li><a href="#our-team">Our Team</a></li>
             <li><a href="#contact-us">Contact Us</a></li>
@@ -445,16 +507,28 @@
     </header>
     <div id="welcome" class="top-wrapper">
     	<div class="container">
-        <h2>Welcome to Our Page</h2>
-        <h1>Learn Web Developer With Us</h1>
-        <h3>C01</h3>
-    	</div>
-      <div class="btn-wrapper">
-      	<a href="#our-project" class="btn learn"><span class="fa fa-angle-double-down"></span>Learn More</a>
-      </div>
+		<h2>Welcome to Our Page</h2>
+		<h1>Learn Web Developer With Us</h1>
+		<h3>C01</h3>
+	</div>
+        <div class="btn-wrapper">
+		<a href="#our-project" class="btn learn"><span class="fa fa-angle-double-down"></span>Learn More</a>
+        </div>
     </div>
     
-    <div id="our-project" class="our-project"></div>
+    <div id="our-project" class="our-project">
+	<div class="container">
+		<div class="heading">
+                	<h2>Our Project</h2>
+            	</div>
+        	<div class="body-slider">
+                	<p>Berikut ini portofolio desain pilihan kami</p>
+        	</div>
+        	<div class="slider">
+
+        	</div>
+        </div>
+    </div>
     
     <div id="about-us" class="about-us">
       <h1 class="subtitle">About Us</h1>
