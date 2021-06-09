@@ -1,0 +1,80 @@
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://image.freepik.com/free-photo/man-hand-typing-keyboard-input-code-register-system_42708-293.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto
+}
+
+.top-wrapper h2 {
+  font-size: 45px;
+  letter-spacing: 6px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper h3 {
+  font-size: 35px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 10px;
+  box-shadow: 0 7px #0077c2;
+  color: white;
+  padding: 15px 40px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.learn {
+  background-color: #42a5f5;
+}
+
+.learn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+
+/* Tablet */
+@media (max-width: 1000px) {
+  .top-wrapper h2 {
+    font-size: 32px;
+  }
+}
+
+
+/* Smartphone */
+@media (max-width: 670px) {
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+}
