@@ -1,0 +1,100 @@
+.contactUs{
+    text-align: center;
+}
+
+.containerCia {
+    /* width: 100%; */
+    height: 300px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: rgb(179, 179, 179);
+  }
+
+.Kiri {
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    width: 50%;
+    display: block;
+}
+
+.Kiri input {
+    width: 55%;
+    border: none;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+.Kiri textarea {
+    width: 55%;
+    height: 100px;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+}
+
+.submit {
+    width: 25%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #0A66C2;
+    color: whitesmoke;
+    border: none;
+}
+/* 
+.submit :hover{
+    background-color: teal;
+} */
+
+
+.Kanan {
+    border-left: 4px solid purple;
+    width: 48%;
+    float: right;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: -280px;
+}
+.Up{
+    margin-bottom: 50px;
+}
+
+.Kanan h2 {
+    font-size: 25px;
+    line-height: 2px;
+}
+.Kanan p {
+    text-align: left;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.Kanan h3 {
+
+    line-height: 1px;
+    font-size: 25px;
+    margin: 20.75px 0px;
+    
+}
+
+
+  .copyRight{
+    color: #b3aeb5;
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+    height: 30px;
+}
+
+
+  footer {
+    width: 100%;
+    padding-top: 30px;
+    /* background-color: ; */
+  }
