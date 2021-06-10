@@ -139,24 +139,10 @@ html, body, h3 {
       color:#000000;
   }
   
-  
-  .instagram-link{
-    display:inline-block;
-    padding:7px;
-    border-radius:7px;
-    margin-right:5px;
-    border-radius: 7px;
-  }
   .instagram-link:active{
     position:relative;
     box-shadow:none;
     bottom:-2px;
-  }
-  .linkedin-link {
-    display:inline-block;
-    padding:7px;
-    border-radius:7px;
-    margin-right:5px;
   }
   
   
@@ -164,12 +150,6 @@ html, body, h3 {
     position:relative;
     box-shadow:none;
     bottom:-2px;
-  }
-  .github-link {
-    display:inline-block;
-    padding:7px;
-    border-radius:7px;
-    margin-right:5px;
   }
   .github-link:active{
     position:relative;
