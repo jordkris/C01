@@ -1,0 +1,119 @@
+.contactUs{
+    text-align: center;
+				}
+
+.containerCia {
+    /* width: 100%; */
+    height: 300px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: rgb(179, 179, 179);
+    max-width: 1200px;
+    display: grid;
+    grid-gap: 1rem;
+ }
+
+.card {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+}
+
+@media (min-width: 900px) {
+  .containerCia { 
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (min-width: 600px) {
+  .containerCia { 
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+.Kiri {
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.Kiri input {
+    width: 55%;
+    border: none;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.Kiri textarea {
+    width: 55%;
+    height: 100px;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+}
+
+.submit {
+    width: 25%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #0A66C2;
+    color: whitesmoke;
+    border: none;
+}
+/* 
+.submit :hover{
+    background-color: teal;
+} */
+
+
+.Kanan {
+    border-left: 4px solid purple;
+    width: 100%;
+    text-align: left;
+    padding-left: 40px;	 
+
+}
+.Up{
+    margin-bottom: 50px;
+}
+
+.Kanan h2 {
+    font-size: 20px;
+    line-height: 2px;
+}
+.Kanan p {
+    text-align: left;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.Kanan h3 {
+
+    line-height: 2px;
+    font-size: 14px;
+    margin: 20.75px 0px;
+}
+
+
+  .copyRight{
+    color: #b3aeb5;
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+    height: 30px;
+}
+
+
+   footer {
+    width: 100%;
+    padding-top: 30px;
+    /* background-color: ; */
+  }
