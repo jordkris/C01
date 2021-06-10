@@ -7,6 +7,7 @@ html, body, h3 {
   .container {
       margin:0 auto;
       width:100%;
+      padding:0 15px;
   }
   /*
   .team-wrapper {
@@ -63,7 +64,7 @@ html, body, h3 {
   
   .teams {
       display:flex;
-      margin-right:30px;
+      margin:0 50px;
   }
   
   .member-container {
@@ -202,7 +203,7 @@ html, body, h3 {
         background-size:cover;
         margin:0 auto;
         padding-top:100px;
-        padding-bottom:80px;
+        padding-bottom:100px;
     }
   }
   
