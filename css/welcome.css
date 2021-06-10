@@ -1,56 +1,26 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 10;
-}
-
 .container {
-    max-width: 1170px;
     width: 100%;
-    padding: 0 15px;
     margin: 0 auto;
 }
 
 .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(https://github.com/irfannandag/C01/blob/8f26cbd401fc3cc55c8a5f2c98099d06a7c011df/image/webheading.jpg?raw=true);
+    background-image: url('https://image.freepik.com/free-photo/man-hand-typing-keyboard-input-code-register-system_42708-293.jpg');
     background-size: cover;
     color: white;
     text-align: center;
-}
-
-.container {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto
 }
 
 .top-wrapper h1 {
     font-size: 45px;
     letter-spacing: 6px;
     margin-bottom: 10px;
+    line-height: 60px;
 }
 
 .top-wrapper h3 {
     font-size: 35px;
+    margin: 30px 0 50px 0;
 }
 
 .btn-wrapper {
@@ -111,31 +81,44 @@ header {
     text-align: center;
 }
 
-.slider { 
-	width: 800px;
+.slider {
     height: 360px;
-	background-image: url(https://raw.githubusercontent.com/irfannandag/C01/main/image/gambar1.png);
+    background-image: url('https://jordy-k.github.io/C01/img/welcome/gambar1.png');
     background-size: cover;
     margin: 0 auto;
     animation: slide 20s infinite;
 }
 
 @keyframes slide {
-    25% {
-        background: url(https://raw.githubusercontent.com/irfannandag/C01/main/image/gambar2.png);
-        background-size: cover;
+    20% {
+        background: url('https://jordy-k.github.io/C01/img/welcome/gambar2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
-    50% {
-        background: url(https://raw.githubusercontent.com/irfannandag/C01/main/image/gambar3.png);
-        background-size: cover;
+    40% {
+        background: url('https://jordy-k.github.io/C01/img/welcome/gambar3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
-    75% {
-        background: url(https://raw.githubusercontent.com/irfannandag/C01/main/image/gambar4.png);
-        background-size: cover;
+    60% {
+        background: url('https://jordy-k.github.io/C01/img/welcome/Gambar4.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    80% {
+        background: url('https://jordy-k.github.io/C01/img/welcome/gambar5.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
     100% {
-        background: url(https://raw.githubusercontent.com/irfannandag/C01/main/image/gambar1.png);
-        background-size: cover;
+        background: url('https://jordy-k.github.io/C01/img/welcome/gambar1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
 }
 
@@ -145,22 +128,11 @@ header {
     .top-wrapper h1 {
         font-size: 32px;
     }
-
-    .slider {
-        width: 100%;
-        height: 284px;
-        margin: 0 auto;
-        background-size: cover;
-    }
 }
   
   
 /* Smartphone */
 @media (max-width: 670px) {
-    .top-wrapper {
-        text-align: left;
-    }
-    
     .top-wrapper h2 {
         line-height: 36px;
     }
@@ -179,10 +151,7 @@ header {
         width: 100%;
     }
 
-    .slider {
-        width: 100%;
-        height: 150px;
-        margin: 0 auto;
-        background-size: cover;
+    .btn:hover {
+        cursor: pointer;
     }
 }
