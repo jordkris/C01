@@ -4,14 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="https://kit.fontawesome.com/5e59a4bfec.js" crossorigin="anonymous"></script>
+    
     <title>Portofolio</title>
+    <!-- Font Awesome Library -->
+    
+    <!-- Font Awesome Library -->
+    <script src="https://kit.fontawesome.com/5e59a4bfec.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="https://jordy-k.github.io/C01/css/style-contact-us-cards.css">
     <style>
       * {
       	box-sizing: border-box;
-      }
-      html {
-    	scroll-behavior: smooth;
       }
       body {
       	margin: 0;
@@ -29,25 +32,22 @@
       }
       .top-wrapper {
       	padding: 180px 0 100px 0;
-        background-image: url(img/welcome/webheading.jpg);
+        background-image: url('https://image.freepik.com/free-photo/man-hand-typing-keyboard-input-code-register-system_42708-293.jpg');
         background-size: cover;
         color: white;
         text-align: center;
       }
       .container { 	
         width: 100%;
-        padding: 0 15px;
-        margin: 0 auto
+        margin: 0 auto;
       }
       .top-wrapper h1 {
       	font-size: 45px;
         letter-spacing: 6px;
-	line-height: 50px;
         margin-bottom: 10px;
       }
       .top-wrapper h3 {
       	font-size: 35px;
-	margin: 20px 0 40px 0;
       }
       .btn-wrapper {
       	margin: 20px 0;
@@ -83,310 +83,66 @@
         text-align: center;
       }
       .heading {
-	border-bottom: 3px solid #dee7ec;
-	width: 100%;
-    	margin: 0 auto;
+        border-bottom: 3px solid #dee7ec;
+        width: 100%;
+        margin: 0 auto;
       }
       .heading h2 {
-    	padding-top: 20px;
-    	font-family: 'Roboto', sans-serif;
-    	font-size: 32px;
-    	text-align: center;
+        padding-top: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+        text-align: center;
       }
       .body-slider p {
-    	font-size: 24px;
-    	text-align: center;
+        font-size: 24px;
+        text-align: center;
       }
-      .slider { 
-	width: 800px;
-    	height: 360px;
-	background-image: url(img/welcome/gambar1.png);
-	background-size: cover;
-    	margin: 0 auto;
-    	animation: slide 20s infinite;
+      .slider {
+        height: 360px;
+        background-image: url('https://jordy-k.github.io/C01/img/welcome/gambar1.png');
+        background-size: cover;
+        margin: 0 auto;
+        animation: slide 20s infinite;
       }
 
       @keyframes slide {
-    	20% {
-		background: url(img/welcome/gambar2.png);
-		background-size: cover;
-	}
-    	40% {
-        	background: url(img/welcome/gambar3.png);
-		background-size: cover;
-    	}
-    	60% {
-        	background: url(img/welcome/Gambar4.png);
-		background-size: cover;
-    	}
-	80% {
-		background: url(img/welcome/gambar5.png);
-		background-size: cover;
-	}
-    	100% {
-        	background: url(img/welcome/gambar1.png);
-		background-size: cover;
-    	}
+        20% {
+          background: url('https://jordy-k.github.io/C01/img/welcome/gambar2.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center center; 
+        }
+        40% {
+          background: url('https://jordy-k.github.io/C01/img/welcome/gambar3.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center center; 
+        }
+        60% {
+          background: url('https://jordy-k.github.io/C01/img/welcome/Gambar4.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center center; 
+        }
+        80% {
+          background: url('https://jordy-k.github.io/C01/img/welcome/gambar5.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center center; 
+        }
+        100% {
+          background: url('https://jordy-k.github.io/C01/img/welcome/gambar1.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center center; 
+        }
       }
       /* --------------------- About US STYLE CSS -------------------------------------------------- */
       
       /* ---------------------END OF About US STYLE CSS -------------------------------------*/
-      .contactUs{
-    	text-align: center;
-				}
       
-     .containerCia {
-          /* width: 100%; */
-          height: 300px;
-          padding: 0 15px;
-          margin: 0 auto;
-          background-color: rgb(179, 179, 179);
-       }
 
-      .Kiri {
-          float: left;
-          padding-top: 10px;
-          text-align: center;
-          width: 50%;
-          display: block;
-      }
-
-      .Kiri input {
-          width: 55%;
-          border: none;
-          padding: 5px;
-          margin-bottom: 15px;
-          font-size: 14px;
-          text-align: center;
-
-      }
-
-      .Kiri textarea {
-          width: 55%;
-          height: 100px;
-          padding: 10px;
-          font-size: 14px;
-          text-align: center;
-          border: none;
-      }
-
-      .submit {
-          width: 25%;
-          margin-top: 5px;
-          margin-bottom: 20px;
-          padding: 10px;
-          font-size: 15px;
-          background-color: #0A66C2;
-          color: whitesmoke;
-          border: none;
-      }
-      /* 
-      .submit :hover{
-          background-color: teal;
-      } */
-
-
-      .Kanan {
-          border-left: 4px solid purple;
-          width: 48%;
-          float: right;
-          text-align: left;
-          padding-left: 40px;	 
-
-      }
-      .Up{
-          margin-bottom: 50px;
-      }
-
-      .Kanan h2 {
-          font-size: 25px;
-          line-height: 2px;
-      }
-      .Kanan p {
-          text-align: left;
-          font-size: 16px;
-          margin: 5px;
-      }
-
-      .Kanan h3 {
-
-          line-height: 2px;
-          font-size: 25px;
-					margin: 20.75px 0px;
-      }
-
-
-        .copyRight{
-          color: #b3aeb5;
-          font-size: 16px;
-          text-align: center;
-          background-color: black;
-          height: 30px;
-      }
-
-
-       	 footer {
-          width: 100%;
-          padding-top: 30px;
-          /* background-color: ; */
-        }
-      
-      
-      
-      /* --------------------- OUR TEAM STYLE CSS -------------------------------------------------- */
-      
-        html, body, h3 {
-          margin: 0;
-          padding: 0;
-          scroll-behavior: smooth;
-        }
-
-        .container {
-            margin:0 auto;
-            width:100%;
-            padding:0 0;
-        }
-        .title-wrap {
-            margin:0 auto;
-        }
-
-        .team-line {
-            margin:0 auto;
-            width:50%;
-            border-bottom:5px solid #3e82b9d3;
-            text-align:center;
-            margin-top:10px;
-            margin-bottom:50px;
-            border-radius:2px;
-            padding-bottom:20px;
-        }
-
-        .team-title-left {
-            text-align:center;
-            margin-right:15px;
-            display:flex;
-        }
-
-        .team-title-right {
-            text-align:center;
-            display:flex;
-        }
-
-        .team-title{
-            text-align:center;
-            display:flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .team-title p {
-            background-color:#3e82b9;
-            margin:0px 3px;
-            padding:5px;
-            font-size:32px;
-            color:white;
-            font-family: 'Brush Script MT', cursive;
-            border-radius:7px;
-            box-shadow:2px 2px #5e96c4;
-        }
-
-        .teams {
-            display:flex;
-            margin-right:30px;
-            margin:0 auto;
-            padding-left:20px;
-            padding-right:20px;
-        }
-
-        .member-container {
-            width:20%;
-            flex:auto;
-            position:relative;
-            padding:10px 10px;
-            margin:0 auto;
-            height:470px;
-        }
-
-        .member {
-            display:inline-block;
-            height:100%;
-            width: 100%;
-            background-color:#8aacc8c9;
-            text-align:center;
-            border-radius:20px;
-            margin:0 auto;
-            box-shadow:0px 5px #738fe9;
-            padding-bottom:10px;
-        }
-
-        .member-image {
-            padding-top:15px;
-            border-radius:5px;
-            height:40%;
-            max-width:90%;
-            border-radius:50%;
-            padding-bottom:10px;
-        }
-
-        .member h3 {
-            font-family: 'Brush Script MT (cursive)';
-            font-size: 14px;
-            padding-top:20px;
-            color: #f7f7f7;
-            letter-spacing:1px;
-            padding-bottom:10%;
-            border-bottom:1px solid #f7f7f7;
-        }
-
-        .member p {
-            padding-top:10px;
-            color:#3f2b2b;
-            letter-spacing:1.5px;
-            font-family:cursive;
-            font-size:14px;
-        }.member p {
-            padding-top:10px;
-            color:#3f2b2b;
-            letter-spacing:1.5px;
-            font-family:cursive;
-            font-size:12px;
-        }
-
-        .member-info {
-            text-align:center;
-            background-color: #6299c7;
-            margin:0 auto;
-            padding:20px 10px;
-            border-radius:20px;
-
-        }
-        .github-link {
-
-          color: white;
-          opacity: 0.8;
-          border-radius: 4px;
-          bottom:25px;
-          position:absolute;
-          padding:5% 10%;
-          margin:0 auto;
-          text-align:center;
-          left:35%;
-        }
-
-        .github-link:hover{
-            background-color: #f7f7f7;  
-            color:black;
-            box-shadow:0px 5px #a09999;
-            transition: all 0.5s;
-        }
-
-        .github-link:active{
-            bottom:23px;
-            box-shadow:none;
-            transition: all 0s;
-        }
-
-        @media (min-width:1000px) {
+      	@media (min-width:1000px) {
       		.team-wrapper {
             background-image:url(https://i.ibb.co/2yrXT8C/1111.jpg);
             background-size:cover;
@@ -430,22 +186,12 @@
           	bottom:27px;
             left:35%;
           }
-	  .slider {
-        	width: 100%;
-        	height: 284px;
-        	margin: 0 auto;
-		background-size: cover;
-    	  }
         }
 
         @media (max-width:670px) {
           .top-wrapper {
-		text-align: left;
+          	text-align: left;
           }
-		
-	  #home {
-		padding: 0 15px;
-	  }
           
           .top-wrapper h2 {
           	line-height: 36px;
@@ -461,22 +207,13 @@
         		line-height: 30px;
     			}
 
-    	   .btn {
-		width: 100%;
-    	   }
-		
-	   .slider {
-        	width: 100%;
-        	height: 150px;
-        	margin: 0 auto;
-		background-size: cover;
-    	   }
-          
-          .member-container {
-          	margin:0 auto;
+    			.btn {
+    				width: 100%;
+    			}
+          .btn:hover {
+          	cursor: pointer;
           }
-
-
+          
           .member-container {
           margin:0 auto;
       }
@@ -490,25 +227,32 @@
         margin:0 auto;
         padding-top:100px;
         padding-bottom:80px;
-    		  }
-        }
+    		}
+     }
       
       /* ---------------------END OF OUR TEAM STYLE CSS -------------------------------------*/
-
+      .fa{
+      	transition: ease 0.2s;
+      }
+      .fa:hover{
+      	cursor: pointer;
+        background-color: rgba(0,0,0,0.5);
+      }
       
     </style>
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://jordy-k.github.io/C01/css/header-stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="https://jordy-k.github.io/C01/css/header-responsive.css">
     <link rel="stylesheet" type="text/css" href="https://jordy-k.github.io/C01/css/style-about-us.css" />
+    <link rel="stylesheet" type="text/css" href="https://jordy-k.github.io/C01/css/our_team.css">
     
-   <link rel="stylesheet" type="text/css" href="https://jordy-k.github.io/C01/css/header-stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="https://jordy-k.github.io/C01/css/header-responsive.css"> 
   </head>
   <body>
     <header>
       <div class="container">
         <div class="header-above">
           <img class="logo" src="https://i.ibb.co/XJJwWZB/logo.png">
-	</div>
+				</div>
         <nav class="menu">
           <input type="checkbox" id="menuToggle">
           <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
@@ -523,28 +267,25 @@
       </div>
     </header>
     <div id="welcome" class="top-wrapper">
-    	<div id="home" class="container">
-		<h2>Welcome to Our Page</h2>
-		<h1>LEARN FULL STACK DEVELOPER WITH US</h1>
-		<h3>C01</h3>
-	</div>
-        <div class="btn-wrapper">
-		<a href="#our-project" class="btn learn"><span class="fa fa-angle-double-down"></span>Learn More</a>
-        </div>
+    	<div class="container">
+        <h2>Welcome to Our Page</h2>
+        <h1>Learn Web Developer With Us</h1>
+        <h3>C01</h3>
+    	</div>
+      <div class="btn-wrapper">
+      	<a href="#" class="btn learn"><span class="fa fa-angle-double-down"></span>Learn More</a>
+      </div>
     </div>
-    
     <div id="our-project" class="our-project">
-	<div class="container">
-		<div class="heading">
-                	<h2>Our Project</h2>
-            	</div>
-        	<div class="body-slider">
-                	<p>Berikut ini portofolio desain pilihan kami</p>
-        	</div>
-        	<div class="slider">
-
-        	</div>
+      <div class="container">
+        <div class="heading">
+          <h2>Our Project</h2>
         </div>
+        <div class="body-slider">
+          <p>Berikut ini portofolio desain pilihan kami</p>
+        </div>
+        <div class="slider"></div>
+      </div>
     </div>
     
     <div id="about-us" class="about-us">
@@ -578,51 +319,71 @@
         <div class="teams">
           <div class="member-container">
           <div class="member">
-            <img class="member-image" src="https://i.ibb.co/qNrwX9t/photo6194747759450500387.jpg">
+            <img class="member-image" src="https://raw.githubusercontent.com/jordy-k/C01/main/img/our_team/photo_jordy.jpg">
             <div class="member-info">
               <h3>Jordy Kristianata</h3>
               <p>" If you fail, try again - else, keep try again - Until new big idea comes for you "</p>
-                <a href="https://github.com/jordy-k" target="_blank" class="fa fa-github github-link"></a>
+            </div>
+            <div class="social">
+            	<a href="https://instagram.com/jordkris" target="_blank" class="fa fa-instagram instagram-link"></a>
+            	<a href="https://www.linkedin.com/in/jordy-kristianata/" target="_blank" class="fa fa-linkedin linkedin-link"></a>
+              <a href="https://github.com/jordy-k" target="_blank" class="fa fa-github github-link"></a>
             </div>
           </div>
           </div>
           <div class="member-container">
           <div class="member">
-            <img class="member-image" src="https://i.ibb.co/ky7fkCx/DSC-0007.jpg">
+            <img class="member-image" src="https://raw.githubusercontent.com/jordy-k/C01/main/img/our_team/photo_hadi.jpg">
             <div class="member-info">
               <h3>Muhammad Abdul Hadi</h3>
               <p>" Keep Moving Forward "</p>
-              <a href="https://github.com/abdulhadi5116" target="_blank" class="fa fa-github github-link"></a>
+            </div>
+            <div class="social">
+            	<a href="https://github.com/jordy-k" target="_blank" class="fa fa-instagram instagram-link"></a>
+            	<a href="https://github.com/jordy-k" target="_blank" class="fa fa-linkedin linkedin-link"></a>
+              <a href="https://github.com/jordy-k" target="_blank" class="fa fa-github github-link"></a>
             </div>
           </div>
           </div>
           <div class="member-container">
             <div class="member">
-            <img class="member-image" src="https://i.ibb.co/XDKnq7r/photo6196999559264185692.jpg">
+            <img class="member-image" src="https://raw.githubusercontent.com/jordy-k/C01/main/img/our_team/photo_jasmine.jpg">
             <div class="member-info">
               <h3>Jasmine</h3>
               <p>“ In the end they’ll judge me anyway. So, whatever.. ”</p>
-              <a href="https://github.com/itsjasmine" target="_blank" class="fa fa-github github-link"></a>
+            </div>
+            <div class="social">
+            	<a href="https://github.com/jordy-k" target="_blank" class="fa fa-instagram instagram-link"></a>
+            	<a href="https://github.com/jordy-k" target="_blank" class="fa fa-linkedin linkedin-link"></a>
+              <a href="https://github.com/jordy-k" target="_blank" class="fa fa-github github-link"></a>
             </div>
             </div>
           </div>
           <div class="member-container">
             <div class="member">
-            <img class="member-image" src="https://i.ibb.co/M2Qq9pq/photo6196999559264185712.jpg">
+            <img class="member-image" src="https://raw.githubusercontent.com/jordy-k/C01/main/img/our_team/photo_irfan.jpg">
             <div class="member-info">
               <h3>Irfan Nanda Gustri</h3>
               <p>" Be a good Person "</p>
-              <a href="https://github.com/irfannandag" target="_blank" class="fa fa-github github-link"></a>
+            </div>
+            <div class="social">
+            	<a href="https://github.com/jordy-k" target="_blank" class="fa fa-instagram instagram-link"></a>
+            	<a href="https://github.com/jordy-k" target="_blank" class="fa fa-linkedin linkedin-link"></a>
+              <a href="https://github.com/jordy-k" target="_blank" class="fa fa-github github-link"></a>
             </div>
           </div>
           </div>
           <div class="member-container">
             <div class="member">
-            <img class="member-image" src="https://i.ibb.co/vxgGQmf/photo6197448078403939608.jpg">
+            <img class="member-image" src="https://raw.githubusercontent.com/jordy-k/C01/main/img/our_team/photo_cia.jpg">
             <div class="member-info">
               <h3>Licia Christine</h3>
               <p>" Don't let anyone use you for their own character development. "</p>
-              <a href="https://github.com/Licia18" target="_blank" class="fa fa-github github-link"></a>
+            </div>
+            <div class="social">
+            	<a href="https://github.com/jordy-k" target="_blank" class="fa fa-instagram instagram-link"></a>
+            	<a href="https://github.com/jordy-k" target="_blank" class="fa fa-linkedin linkedin-link"></a>
+              <a href="https://github.com/jordy-k" target="_blank" class="fa fa-github github-link"></a>
             </div>
           </div>
           </div>
@@ -633,6 +394,34 @@
     <footer>  
     <h1 id="contact-us" class="contactUs"> Contact Us </h1>
     <div class="containerCia">
+      	<div class="card">
+          <div class="Kiri"> 
+              <input placeholder="Name" type="text" name="" id="">
+              <input placeholder="Your E-Mail" type="text" name="" id="">
+              <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea><br><br>
+              <!-- <button class="submit"> </button> -->
+            	<div class="btn-wrapper">
+                <button href="#" class="btn learn submit"><span class="fa fa-angle-double-down"></span>Submit Here</button>
+              </div>
+          </div>
+      	</div>
+      	<div class="card">
+          <div class="Kanan">
+              <div class= "Up">
+                  <h2>Get In Touch</h2>
+                  <p>Interested in building a great website?</p>
+                  <p>Just leave a message to connect with us.</p>
+              </div>
+              <div class="Down">
+                  <h3>C01 Progate Jakarta</h3>
+                  <p>Jl. Jend. Sudirman No.Kav 71, Senayan,</p>
+                  <p>Kec. Kby. Baru, Kota Jakarta Selatan,</p>
+                  <p>DKI Jakarta 12190</p>
+              </div>
+          </div>
+      	</div>
+    </div>
+    <!-- <div class="containerCia">
         <div class="Kiri"> 
             <input placeholder="Name" type="text" name="" id="">
             <input placeholder="Your E-Mail" type="text" name="" id="">
@@ -652,7 +441,7 @@
                 <p>DKI Jakarta 12190</p>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="copyRight">
         Copyright C01 team © 2021
     </div>
