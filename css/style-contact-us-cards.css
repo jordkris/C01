@@ -64,6 +64,7 @@
     background-color: #0A66C2;
     color: whitesmoke;
     border: none;
+    cursor: pointer;
 }
 /* 
 .submit :hover{
