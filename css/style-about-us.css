@@ -9,8 +9,9 @@
 	height: 100vh;
 }
 
-.about-us .subtitle {
-	font-family: cursive;
+.about-us .subtitle {	
+  margin-top:0;
+  font-family: cursive;
   color: #bbdefb;
   /* position: absolute; */
   text-align: center;
