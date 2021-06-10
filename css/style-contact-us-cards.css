@@ -8,7 +8,6 @@
     padding: 0 15px;
     margin: 0 auto;
     background-color: rgb(179, 179, 179);
-    max-width: 1200px;
     display: grid;
     grid-gap: 1rem;
  }
